@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CampaignAdvisor_Example' do
+  pod 'CampaignAdvisor', :path => '../'
+
+  target 'CampaignAdvisor_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
