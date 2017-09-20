@@ -1,5 +1,5 @@
 //
-//  CampaignViewController.h
+//  ViewController.h
 //  CampaignAdvisor
 //
 //  Created by mhg5303@gmail.com on 09/19/2017.
@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface CampaignViewController : UIViewController
+@interface ViewController : UIViewController
 
 @end

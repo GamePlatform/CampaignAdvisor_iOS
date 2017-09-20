@@ -1,18 +1,18 @@
 //
-//  CampaignViewController.m
+//  ViewController.m
 //  CampaignAdvisor
 //
 //  Created by mhg5303@gmail.com on 09/19/2017.
 //  Copyright (c) 2017 mhg5303@gmail.com. All rights reserved.
 //
 
-#import "CampaignViewController.h"
+#import "ViewController.h"
 
-@interface CampaignViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation CampaignViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {
