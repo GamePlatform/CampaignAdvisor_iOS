@@ -1,0 +1,6 @@
+framework module CampaignAdvisor {
+  umbrella header "CampaignAdvisor-umbrella.h"
+
+  export *
+  module * { export * }
+}

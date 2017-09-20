@@ -1,0 +1,22 @@
+{
+  "name": "CampaignAdvisor",
+  "version": "0.1.0",
+  "summary": "A short description of CampaignAdvisor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mhg5303@gmail.com/CampaignAdvisor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mhg5303@gmail.com": "mhg5303@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mhg5303@gmail.com/CampaignAdvisor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CampaignAdvisor/Classes/**/*"
+}

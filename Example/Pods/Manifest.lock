@@ -1,0 +1,23 @@
+PODS:
+  - CampaignAdvisor (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CampaignAdvisor (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CampaignAdvisor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CampaignAdvisor: 40ea4f60890b60c261b2b531bf6bf03456db8b18
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 1f70ec2bbdc3f97f1bbb98f14fb178ea89ae4fa4
+
+COCOAPODS: 1.2.1
