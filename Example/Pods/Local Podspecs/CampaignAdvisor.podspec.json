@@ -1,9 +1,9 @@
 {
   "name": "CampaignAdvisor",
-  "version": "0.1.0",
-  "summary": "A short description of CampaignAdvisor.",
+  "version": "0.1.1",
+  "summary": "CampaignAdvisor for Campaign.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/mhg5303@gmail.com/CampaignAdvisor",
+  "homepage": "https://github.com/GamePlatform/CampaignAdvisor_iOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,21 @@
     "mhg5303@gmail.com": "mhg5303@gmail.com"
   },
   "source": {
-    "git": "https://github.com/mhg5303@gmail.com/CampaignAdvisor.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/GamePlatform/CampaignAdvisor_iOS.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CampaignAdvisor/Classes/**/*"
+  "source_files": "CampaignAdvisor/Classes/**/*",
+  "public_header_files": "Pod/Classes/CampaignManager.h",
+  "frameworks": [
+    "UIKit",
+    "WebKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }

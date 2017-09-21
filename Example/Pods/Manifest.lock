@@ -1,23 +1,33 @@
 PODS:
-  - CampaignAdvisor (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CampaignAdvisor (0.1.1):
+    - AFNetworking
 
 DEPENDENCIES:
   - CampaignAdvisor (from `../`)
-  - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   CampaignAdvisor:
     :path: ../
 
 SPEC CHECKSUMS:
-  CampaignAdvisor: 40ea4f60890b60c261b2b531bf6bf03456db8b18
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CampaignAdvisor: c2b2d1a42f8f978615b333348e40c2237d4da157
 
-PODFILE CHECKSUM: 1f70ec2bbdc3f97f1bbb98f14fb178ea89ae4fa4
+PODFILE CHECKSUM: f8f16cf18ed796ec4d9e506de91d011cfcddf724
 
 COCOAPODS: 1.2.1

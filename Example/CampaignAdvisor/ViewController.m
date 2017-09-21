@@ -7,23 +7,35 @@
 //
 
 #import "ViewController.h"
+#import <CampaignAdvisor/CampaignManager.h>
 
-@interface ViewController ()
+@interface ViewController () {
+    NSMutableArray *campaigns;
+}
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self getCampaigns];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)getCampaigns {
+    [CampaignManager.sharedManager getCampaigns:@"main" onVC:self];
+}
+
+- (void)ad {
+    NSLog(@"here is ad");
+    [self presentViewController:[[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"ad"] animated:YES completion:nil];
 }
 
 @end

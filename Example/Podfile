@@ -6,6 +6,6 @@ target 'CampaignAdvisor_Example' do
   target 'CampaignAdvisor_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+#    pod 'FBSnapshotTestCase'
   end
 end
