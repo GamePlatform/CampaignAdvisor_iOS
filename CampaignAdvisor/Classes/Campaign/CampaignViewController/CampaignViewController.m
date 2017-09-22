@@ -42,12 +42,13 @@
     
     webView = [[WKWebView alloc] initWithFrame:self.view.frame configuration:configuration];
     
-    NSBundle* bundle = [NSBundle bundleForClass:self.class];
-    NSLog(@"%@", [NSBundle bundleForClass:self.class]);
-    NSLog(@"%@", [NSBundle mainBundle]);
-    NSURL *url = [[NSBundle bundleForClass:[self class]] URLForResource:[NSString stringWithFormat:@"%@", _info[@"template"]] withExtension:@"html"];
+    NSURLComponents *components = [[NSURLComponents alloc]
+                                   initWithURL:[[NSBundle
+                                                 bundleWithURL:[[NSBundle bundleForClass:self.class]
+                                                                URLForResource:@"CampaignAdvisor" withExtension:@"bundle"]]
+                                                URLForResource:[NSString stringWithFormat:@"%@", _info[@"template"]] withExtension:@"html"]
+                                   resolvingAgainstBaseURL:NO];
     
-    NSURLComponents *components = [[NSURLComponents alloc] initWithURL:url resolvingAgainstBaseURL:NO];
     [components setQueryItems:@[[NSURLQueryItem queryItemWithName:@"os" value:@"iOS"],
                                 [NSURLQueryItem queryItemWithName:@"redirect" value:_info[@"redirect_location"]],
                                 [NSURLQueryItem queryItemWithName:@"img" value:_info[@"url"]]]];
@@ -138,19 +139,23 @@
 
 - (void)redirect:(NSString *)redirect {
     dispatch_async(dispatch_get_main_queue(), ^{
-        UIViewController *presentingViewController = self.presentingViewController;
-        if ([presentingViewController isKindOfClass:[CampaignViewController class]]) {
+        UIViewController *visibleViewController = self.presentingViewController;
+        if ([visibleViewController isKindOfClass:[CampaignViewController class]]) {
             [self closeWithCompletion:^{
-                [(CampaignViewController *)presentingViewController redirect:redirect];
+                [(CampaignViewController *)visibleViewController redirect:redirect];
             }];
         } else {
             [self closeWithCompletion:^{
                 [CampaignManager.sharedManager addAnalytics:_info[@"campaign_id"] type:AnalyticsTypePurchase];
                 @try {
-                    [presentingViewController performSegueWithIdentifier:redirect sender:nil];
+                    [visibleViewController performSegueWithIdentifier:redirect sender:nil];
                 } @catch (NSException *exception) {
-                    if ([presentingViewController respondsToSelector:NSSelectorFromString(redirect)]) {
-                        [presentingViewController performSelector:NSSelectorFromString(redirect)];
+                    __block UIViewController* blocVisible = visibleViewController;
+                    if ([blocVisible isKindOfClass:UINavigationController.class]) {
+                        blocVisible = [(UINavigationController *)visibleViewController visibleViewController];
+                    }
+                    if ([blocVisible respondsToSelector:NSSelectorFromString(redirect)]) {
+                        [blocVisible performSelector:NSSelectorFromString(redirect)];
                     }
                     DLog(@"Segue and Function did not find it either.");
                 } @finally { }

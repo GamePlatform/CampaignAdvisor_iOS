@@ -8,64 +8,69 @@
 
 /* Begin PBXBuildFile section */
 		00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 996D38C17E48CD16703CD9A31F9F6EC7 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07AE594762A6B28338C18B40B930ECA3 /* CampaignViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A56F71494E67FD5375672C79BD5469 /* CampaignViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B775F2CB1A9FB265DAF8C6F05776A69E /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0C171634A123A0E7FC39F44FA05D2 /* UIActivityIndicatorView+AFNetworking.m */; };
-		1DC5A110680D053756FBADCF0F96E91A /* CampaignAdvisor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AACCB508D56B0463DCE23204EF23AD3 /* CampaignAdvisor-dummy.m */; };
+		191189C597B8706962DCEE997AAC075A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F4BB4D32547029FF6D0B8746965824 /* UIKit.framework */; };
+		19A5D4E61389DE653A752270D79EB0F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCB737832E5BC152494BB40361EE612 /* Foundation.framework */; };
 		1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E363399C8F7BCAD4FC7BD1CDBF97CD10 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		211EFBE295AB11DE29F901818E441CE1 /* Pods-CampaignAdvisor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9876AEA0C310EB16CD0F24B51C1F0DF9 /* Pods-CampaignAdvisor_Tests-dummy.m */; };
 		29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B66C0AEBC9F9724A670DCF79BE4531 /* AFURLRequestSerialization.m */; };
-		2AF99D2461B25129A41A715C8F44EDD7 /* CampaignViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D167E819DF834B303745EC5E3EA9E5AC /* CampaignViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A39107EEA293C692022DBFA34617CFB0 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E5F39AC483B786D2CCA348DDEACF136 /* UtilForDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DBD44990BA40106882C6AB8388B8702 /* UtilForDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD98890658A5A449493A9FDA44C5258 /* 1.html in Resources */ = {isa = PBXBuildFile; fileRef = EF44065C2DAE3F31A3C12AB43F94EE6A /* 1.html */; };
+		2DAF9049C360B38D36F4C738189833C2 /* UtilForDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = AC3E2B0849C5DA95AC0AFF0D7B7D5DA1 /* UtilForDebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		30F0BAE1DBB79BBB6CBD957EA8B89E4B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D969C92AEF429EA81E3DD97A4D37D7F8 /* MobileCoreServices.framework */; };
 		31D2CE7A467DB7E08069949FC90A0990 /* Pods-CampaignAdvisor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47AF6B94F20F6685975176EC1B2D3166 /* Pods-CampaignAdvisor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32076D3DD644045CF79DFFEBB6BFF3F2 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 907EBD05C24D3EC8D81F3A5FEE84121C /* UIButton+AFNetworking.m */; };
-		3323F63C422C3F7ABC0603B4526CF5D6 /* CampaignAPIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1176E701E0C84440BEAA18D51200886D /* CampaignAPIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34C88657FE7ABE9F833623F94952D253 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 85053C33AB5B93D2852851105AAA32B1 /* UIProgressView+AFNetworking.m */; };
 		35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4088CDD2F5D16F78CD6D995025592E /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C2AE1CAFABA8B6AB405F001A126BBF1 /* CampaignAdvisor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F42C3A319DD3F5594E987B7F33354887 /* CampaignAdvisor-dummy.m */; };
 		42AF1BB1ED090CC9E588A463441D09E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70EB8CEC6BEAD2B4677013F8CEC24F6 /* SystemConfiguration.framework */; };
 		4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9F5DA3051DAC003422E54B3B4A6E9D /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45F802D04B3BE0CAEC586C2F3016027B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 077A1959F6F952532F523B4F8E9B751D /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD03D0BE06A3B18AD76D92D8234FBBB /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49D6747A8497857DC913E8609AD74D87 /* Pods-CampaignAdvisor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC106FF13C32BEF412C828A8E5AB4FB /* Pods-CampaignAdvisor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B14F100F8966C6C3C1E4FAA2CDE6EA3 /* CampaignAdvisor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2D1BFCEF0B92640595C3C427A5D9D7 /* CampaignAdvisor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FB8985358D586E17C42CCE7002AEA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCB737832E5BC152494BB40361EE612 /* Foundation.framework */; };
 		51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FDE8718B3C2608D30D734C8A15D3D3 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51697FDA472A0F0147AA944A9FB675A3 /* CampaignManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC116C82617E7889A0BE229EAEC2A9 /* CampaignManager.m */; };
-		5264BBD025647E14C79F7DE9FDBA602F /* CampaignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD1D44CB001AAD98129AE525919A90 /* CampaignViewController.m */; };
 		56CF50D6D6DB8E8AEDF37BEBBC1257AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCB737832E5BC152494BB40361EE612 /* Foundation.framework */; };
 		5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 103EE194B42BE62229AA5C5351E9BFE9 /* AFURLResponseSerialization.m */; };
 		649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DAA8D29D605736A0994260EEE74150 /* AFNetworkActivityIndicatorManager.m */; };
 		6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 31421BED59C8FE2DFEFD4457219B946A /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B2CAC77BFBD6DF1283CF73F4E1A98E3 /* UtilForDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DA29ED3F1F204741C691BE7160A91B /* UtilForDebug.m */; };
-		6B4A2FF493233B7BD8B5D6F7CC42C7E4 /* CampaignAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A282EC56CAAC12F7DFFA639AD517E1 /* CampaignAPIManager.m */; };
+		6DF68B02C96362F0575E1057D0EE70A1 /* CampaignManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 953DBE62CD2C065E04A2EA0991CD7CA5 /* CampaignManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		789D749690B308852115FF20CD982A69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5440BA28C5F5A574AB1C50D2AE884C /* CoreGraphics.framework */; };
 		7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C71DB2632AE2E107C12837E932A8E08 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 766A8DB58B1DEC0150E36AD843786FF3 /* UIWebView+AFNetworking.m */; };
-		7D2AD2DC6AF3448A53673D227F248BFD /* CampaignManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6168AD1E12662E2FB2B5C280484AB26B /* CampaignManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82D554EC9FB9A62D935B6555325F5898 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC69CCE1BDF230C298778BF24046CA8 /* Security.framework */; };
+		897797E11D79732E52BF3247CD8815F3 /* CampaignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361C31279871C784166CD62A7F3229F3 /* CampaignViewController.m */; };
 		9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA1B9153633729F35C67949C7006B7A /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 456884974FCD65674016A0D296E8D846 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 038DE6D856DFAE2F85304D036588D065 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94F9B0D54B51C78591BEA703172A15E8 /* UtilForDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B653F50DC570B70FC0B9CB5E0F26682 /* UtilForDebug.m */; };
 		A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEEB3CDE859F3F412940D15AA031037 /* AFAutoPurgingImageCache.m */; };
 		A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC24D481320415EB9DB59C7033DAC26 /* AFImageDownloader.m */; };
-		A600B99659973F50BECC203DB940A6EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F4BB4D32547029FF6D0B8746965824 /* UIKit.framework */; };
+		A581E5E78251C9691E2D47AE9FCA46FA /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C50DFA32EF114444A5E8C6855F749B5 /* AFNetworking.framework */; };
 		A8C297643282E0CF5E7DF9CB6E23A0D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCB737832E5BC152494BB40361EE612 /* Foundation.framework */; };
+		AAB1C1C0959AAD23BFB61171CF916F56 /* CampaignAPIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4851530093AAC94058126EFA6A0ACD25 /* CampaignAPIManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ABDF3C4DAA21539E767CA1CF3A6ACFA5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BB7CDB4857E57CB8E1D825D7ACB4A3 /* WebKit.framework */; };
+		AC7FCD47BFB3ACCC8015431B2A6A4E7F /* CampaignAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DB27D89B35C2A87919AD6A1BED66A /* CampaignAPIManager.m */; };
 		AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 434E574D60CF3205EB86C49EB8453D2E /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDAFE16F1C06EFAE434D84600766A8 /* UIRefreshControl+AFNetworking.m */; };
+		B97B11A32B4FDE93E1D5AB2F9D7FC451 /* CampaignAdvisor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC892AF7232B21C584E6DE5DAC01845B /* CampaignAdvisor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE43401E09CA9E3E551825B70962B359 /* CampaignAdvisor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8FB9CCDE76D7EC14BD476868AD415CD8 /* CampaignAdvisor.bundle */; };
 		CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = EECF143AE392C1D26B1C57DFCCC39E7E /* AFSecurityPolicy.m */; };
+		CED4BAC482D48816A311812BC39D6ED2 /* 2.html in Sources */ = {isa = PBXBuildFile; fileRef = F849455F3C4EA2155CBF41652CBA54FD /* 2.html */; };
 		CF287829627F26B2EB4382B897D06A0E /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A189FDEF0AD08BC5DC357020B8DB5A /* AFNetworking-dummy.m */; };
-		D3970219B5ECDAC2BC6E22D818B2DED1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BB7CDB4857E57CB8E1D825D7ACB4A3 /* WebKit.framework */; };
 		D4E80BD7EAAB83200183110578A80591 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5EF98E2B153C6459F4BC74A2940581 /* AFURLSessionManager.m */; };
 		DAE3E7E94EE48A6FB31661CF6042DCC2 /* Pods-CampaignAdvisor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FC3412087415A564BB7EA557925671 /* Pods-CampaignAdvisor_Example-dummy.m */; };
-		DCC2E0DEDCD30DD98F6BE6EB28498516 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C50DFA32EF114444A5E8C6855F749B5 /* AFNetworking.framework */; };
 		DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F42B01C0184F7993752BA21574CFB4 /* AFNetworkReachabilityManager.m */; };
+		DF888A826EB9FECECD9336B6102BABE6 /* 1.html in Sources */ = {isa = PBXBuildFile; fileRef = EF44065C2DAE3F31A3C12AB43F94EE6A /* 1.html */; };
 		E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 87463A8F055EEE85DD10593D0C8721B2 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E80CD8D5869C94CEECD6604821E279C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCB737832E5BC152494BB40361EE612 /* Foundation.framework */; };
 		EAF16633DB3C992CF975BE4A2932D41C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73950156966D6FB93DC14CBF7F3326A6 /* AFHTTPSessionManager.m */; };
 		F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 43581AD63883CAA415A71F817EED5D51 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2D899C7AA0D7FC20160091BB9D31CF3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E287540F6AAFBD6834BFA37866AE26DA /* UIImageView+AFNetworking.m */; };
+		F837017AC4F2D4A89D210A705C28AB0C /* CampaignManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F665711E2075C4950AFDCCB4EF510EAB /* CampaignManager.m */; };
 		F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F05638D4877C1C9F1AAC3E348D5C7D70 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBC7A47D7AACD376EC0D19D8C5F16B06 /* 2.html in Resources */ = {isa = PBXBuildFile; fileRef = F849455F3C4EA2155CBF41652CBA54FD /* 2.html */; };
 		FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = E06C4D570ABCF18D8095B9111D3D3F98 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -74,17 +79,24 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D3118CBB1E52B882BFE70615AC36BD71;
+			remoteGlobalIDString = 8242B629A2251AAF9183343CD5A4C303;
 			remoteInfo = CampaignAdvisor;
 		};
-		E6432F94B9BB7F3A55397A6F6CAE2C4D /* PBXContainerItemProxy */ = {
+		957B9A334C915E35AACCBC23FC7E68C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF671F7E57B92905F1CC91D036D6B4A7;
 			remoteInfo = AFNetworking;
 		};
-		F0A74AA0CC091136DE7AF3C016C8B29F /* PBXContainerItemProxy */ = {
+		DD1EA000EFC0E470F65A625BF83DF2FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C6001C778F1640A73D4F578B3984856;
+			remoteInfo = "CampaignAdvisor-CampaignAdvisor";
+		};
+		E6432F94B9BB7F3A55397A6F6CAE2C4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -94,25 +106,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A282EC56CAAC12F7DFFA639AD517E1 /* CampaignAPIManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CampaignAPIManager.m; sourceTree = "<group>"; };
 		0245587FA202402BD450E489EB6F29D8 /* Pods-CampaignAdvisor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CampaignAdvisor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		038DE6D856DFAE2F85304D036588D065 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		077A1959F6F952532F523B4F8E9B751D /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		078487356FDDB85A0AC35647D303E08B /* Pods_CampaignAdvisor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampaignAdvisor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA1B9153633729F35C67949C7006B7A /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		0DC69CCE1BDF230C298778BF24046CA8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		103EE194B42BE62229AA5C5351E9BFE9 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		10775E94CB1CC9823005ECF62F8F73EF /* 1.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; path = 1.html; sourceTree = "<group>"; };
-		1176E701E0C84440BEAA18D51200886D /* CampaignAPIManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CampaignAPIManager.h; sourceTree = "<group>"; };
 		16B66C0AEBC9F9724A670DCF79BE4531 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		1C50DFA32EF114444A5E8C6855F749B5 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2455B1AE4385FEAF9D78B62F583A35 /* Pods-CampaignAdvisor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CampaignAdvisor_Tests-resources.sh"; sourceTree = "<group>"; };
 		23BB7CDB4857E57CB8E1D825D7ACB4A3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		2594E3E0128A6D2779446E0A6985B90B /* CampaignAdvisor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CampaignAdvisor-prefix.pch"; sourceTree = "<group>"; };
 		28688A10D59EC6EFF83D7260BE701E44 /* Pods-CampaignAdvisor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CampaignAdvisor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B653F50DC570B70FC0B9CB5E0F26682 /* UtilForDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UtilForDebug.m; sourceTree = "<group>"; };
 		31421BED59C8FE2DFEFD4457219B946A /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		36930193CC8E325C602D3866B52DE8D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3AACCB508D56B0463DCE23204EF23AD3 /* CampaignAdvisor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CampaignAdvisor-dummy.m"; sourceTree = "<group>"; };
+		361C31279871C784166CD62A7F3229F3 /* CampaignViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CampaignViewController.m; sourceTree = "<group>"; };
+		3AB8F802A226B38CAC2195B45672B15D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BBBF2DB8B1CD21BE6F5F462F618CBAA /* Pods-CampaignAdvisor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CampaignAdvisor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3BC24D481320415EB9DB59C7033DAC26 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		3BCB737832E5BC152494BB40361EE612 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -120,66 +128,72 @@
 		434E574D60CF3205EB86C49EB8453D2E /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		43581AD63883CAA415A71F817EED5D51 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		456884974FCD65674016A0D296E8D846 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		47A56F71494E67FD5375672C79BD5469 /* CampaignViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CampaignViewController.h; sourceTree = "<group>"; };
 		47AF6B94F20F6685975176EC1B2D3166 /* Pods-CampaignAdvisor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CampaignAdvisor_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4851530093AAC94058126EFA6A0ACD25 /* CampaignAPIManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CampaignAPIManager.h; sourceTree = "<group>"; };
+		4C6DB27D89B35C2A87919AD6A1BED66A /* CampaignAPIManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CampaignAPIManager.m; sourceTree = "<group>"; };
 		4CC106FF13C32BEF412C828A8E5AB4FB /* Pods-CampaignAdvisor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CampaignAdvisor_Example-umbrella.h"; sourceTree = "<group>"; };
 		4D69ECBE2C99815724F7DBABECF15FAF /* Pods-CampaignAdvisor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CampaignAdvisor_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4DDDAFE16F1C06EFAE434D84600766A8 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		4F6FBBCD93BCCB5EC91870FFC0A6E98E /* Pods-CampaignAdvisor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CampaignAdvisor_Tests.modulemap"; sourceTree = "<group>"; };
+		4F6FBBCD93BCCB5EC91870FFC0A6E98E /* Pods-CampaignAdvisor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CampaignAdvisor_Tests.modulemap"; sourceTree = "<group>"; };
+		5788F0108E4FAE152EEC167386D75400 /* CampaignAdvisor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CampaignAdvisor.framework; path = CampaignAdvisor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FDE8718B3C2608D30D734C8A15D3D3 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		6168AD1E12662E2FB2B5C280484AB26B /* CampaignManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CampaignManager.h; sourceTree = "<group>"; };
-		61B7D432A6D093C9CC4E9E77E45599AA /* 2.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; path = 2.html; sourceTree = "<group>"; };
-		61DA29ED3F1F204741C691BE7160A91B /* UtilForDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UtilForDebug.m; sourceTree = "<group>"; };
 		634CF4D5707C05C6439D1C509C2FB022 /* Pods-CampaignAdvisor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CampaignAdvisor_Example-resources.sh"; sourceTree = "<group>"; };
-		63FFB93338A1452495344FE03676D5DE /* Pods_CampaignAdvisor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampaignAdvisor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		685702CDD5AAD0E5BCCAB830063930A4 /* Pods-CampaignAdvisor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CampaignAdvisor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		69DAA8D29D605736A0994260EEE74150 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		70332663680EC8454EFCA3F34B386256 /* Pods-CampaignAdvisor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CampaignAdvisor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73950156966D6FB93DC14CBF7F3326A6 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		766A8DB58B1DEC0150E36AD843786FF3 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		796C9E8DAE43D1AB43FA8E69CDEE7ABD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FEBEAD524FBA9CB3333D35635D65A03 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		7FEBEAD524FBA9CB3333D35635D65A03 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		85053C33AB5B93D2852851105AAA32B1 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		86F42B01C0184F7993752BA21574CFB4 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		87463A8F055EEE85DD10593D0C8721B2 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		8DBD44990BA40106882C6AB8388B8702 /* UtilForDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilForDebug.h; sourceTree = "<group>"; };
+		8FB9CCDE76D7EC14BD476868AD415CD8 /* CampaignAdvisor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CampaignAdvisor.bundle; path = CampaignAdvisor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		907EBD05C24D3EC8D81F3A5FEE84121C /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		9274E93AF598BD9449A9EE66C512EE95 /* Pods-CampaignAdvisor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CampaignAdvisor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		953DBE62CD2C065E04A2EA0991CD7CA5 /* CampaignManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CampaignManager.h; path = CampaignAdvisor/Classes/CampaignManager.h; sourceTree = "<group>"; };
 		9876AEA0C310EB16CD0F24B51C1F0DF9 /* Pods-CampaignAdvisor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CampaignAdvisor_Tests-dummy.m"; sourceTree = "<group>"; };
 		98A189FDEF0AD08BC5DC357020B8DB5A /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		996D38C17E48CD16703CD9A31F9F6EC7 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		9B5EF98E2B153C6459F4BC74A2940581 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		9BC970966CFC0C45A95944362021081A /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39107EEA293C692022DBFA34617CFB0 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		AAAB0590FAF33DC6C2DF91B4E02C1BBC /* Pods-CampaignAdvisor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CampaignAdvisor_Example.modulemap"; sourceTree = "<group>"; };
+		AAAB0590FAF33DC6C2DF91B4E02C1BBC /* Pods-CampaignAdvisor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CampaignAdvisor_Example.modulemap"; sourceTree = "<group>"; };
 		AB4088CDD2F5D16F78CD6D995025592E /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		ADBC116C82617E7889A0BE229EAEC2A9 /* CampaignManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CampaignManager.m; sourceTree = "<group>"; };
+		ABBFC7016605F605E357296BB7B2D7AF /* ResourceBundle-CampaignAdvisor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CampaignAdvisor-Info.plist"; sourceTree = "<group>"; };
+		AC3E2B0849C5DA95AC0AFF0D7B7D5DA1 /* UtilForDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilForDebug.h; sourceTree = "<group>"; };
 		B00ABE2539A23D5CD12E8B3547F05E07 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		B342C29C92E4DA20525F1ED2B2E8B3F9 /* Pods-CampaignAdvisor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CampaignAdvisor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B43927E573342410DBA547B22AC9A49F /* Pods_CampaignAdvisor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CampaignAdvisor_Example.framework; path = "Pods-CampaignAdvisor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FB2BC83B1CAF09DA68C6C64F67D8C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B775F2CB1A9FB265DAF8C6F05776A69E /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		B846E46970D40E9AC8960B9C98B1D227 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAEEB3CDE859F3F412940D15AA031037 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		CB2D1BFCEF0B92640595C3C427A5D9D7 /* CampaignAdvisor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CampaignAdvisor-umbrella.h"; sourceTree = "<group>"; };
+		C09F5C9EEDCC5E89213B15C457D156B1 /* CampaignAdvisor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CampaignAdvisor.modulemap; sourceTree = "<group>"; };
+		CAEDB0D8988F62089D123D9FB90E0C70 /* CampaignAdvisor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CampaignAdvisor.xcconfig; sourceTree = "<group>"; };
 		CC39EF3AD1F82C62CF9B8F3BCA30273A /* Pods-CampaignAdvisor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CampaignAdvisor_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D167E819DF834B303745EC5E3EA9E5AC /* CampaignViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CampaignViewController.h; sourceTree = "<group>"; };
+		CC892AF7232B21C584E6DE5DAC01845B /* CampaignAdvisor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CampaignAdvisor-umbrella.h"; sourceTree = "<group>"; };
+		CC8E1C7C50CAC0BB0F088E74338F93F0 /* CampaignAdvisor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CampaignAdvisor-prefix.pch"; sourceTree = "<group>"; };
 		D470C13FAFBD8B0B3069240F366F062C /* Pods-CampaignAdvisor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CampaignAdvisor_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D70EB8CEC6BEAD2B4677013F8CEC24F6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		D8FC3412087415A564BB7EA557925671 /* Pods-CampaignAdvisor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CampaignAdvisor_Example-dummy.m"; sourceTree = "<group>"; };
 		D969C92AEF429EA81E3DD97A4D37D7F8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		E01544E26FFD5D27C69578998A43521B /* CampaignAdvisor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CampaignAdvisor.modulemap; sourceTree = "<group>"; };
 		E06C4D570ABCF18D8095B9111D3D3F98 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		E1F4BB4D32547029FF6D0B8746965824 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E287540F6AAFBD6834BFA37866AE26DA /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		E28AA512497D404B793FD34A48E3F41F /* Pods_CampaignAdvisor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CampaignAdvisor_Tests.framework; path = "Pods-CampaignAdvisor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E363399C8F7BCAD4FC7BD1CDBF97CD10 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		E4AC9D59178A4FAAC08F904A8146707A /* CampaignAdvisor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CampaignAdvisor.xcconfig; sourceTree = "<group>"; };
 		E6E0C171634A123A0E7FC39F44FA05D2 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		E9A7FDD2EC5362EB438BB202692A1F1C /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9F5DA3051DAC003422E54B3B4A6E9D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		EECF143AE392C1D26B1C57DFCCC39E7E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		EF44065C2DAE3F31A3C12AB43F94EE6A /* 1.html */ = {isa = PBXFileReference; includeInIndex = 1; path = 1.html; sourceTree = "<group>"; };
 		F05638D4877C1C9F1AAC3E348D5C7D70 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		F3CD1D44CB001AAD98129AE525919A90 /* CampaignViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CampaignViewController.m; sourceTree = "<group>"; };
+		F42C3A319DD3F5594E987B7F33354887 /* CampaignAdvisor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CampaignAdvisor-dummy.m"; sourceTree = "<group>"; };
+		F665711E2075C4950AFDCCB4EF510EAB /* CampaignManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CampaignManager.m; path = CampaignAdvisor/Classes/CampaignManager.m; sourceTree = "<group>"; };
 		F7617E4141049E867B695D99457B2D51 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		FB05D954144A7005A5B7EB81B1D1777F /* CampaignAdvisor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CampaignAdvisor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F849455F3C4EA2155CBF41652CBA54FD /* 2.html */ = {isa = PBXFileReference; includeInIndex = 1; path = 2.html; sourceTree = "<group>"; };
 		FB5440BA28C5F5A574AB1C50D2AE884C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		FDD03D0BE06A3B18AD76D92D8234FBBB /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -190,6 +204,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FB8985358D586E17C42CCE7002AEA96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46676805574FE1AC5FC9EC3772B2C769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,14 +226,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D292486420C908D205A5FBE2DCE7238B /* Frameworks */ = {
+		E575F9DB50551335986EDD5CF977BF59 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCC2E0DEDCD30DD98F6BE6EB28498516 /* AFNetworking.framework in Frameworks */,
-				E80CD8D5869C94CEECD6604821E279C5 /* Foundation.framework in Frameworks */,
-				A600B99659973F50BECC203DB940A6EB /* UIKit.framework in Frameworks */,
-				D3970219B5ECDAC2BC6E22D818B2DED1 /* WebKit.framework in Frameworks */,
+				A581E5E78251C9691E2D47AE9FCA46FA /* AFNetworking.framework in Frameworks */,
+				19A5D4E61389DE653A752270D79EB0F9 /* Foundation.framework in Frameworks */,
+				191189C597B8706962DCEE997AAC075A /* UIKit.framework in Frameworks */,
+				ABDF3C4DAA21539E767CA1CF3A6ACFA5 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,77 +248,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0631F799C7F2580EC57785D52D973FDB /* Debug */ = {
+		1A3077B8A5E09CDA4A2FA3A55F038C13 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8DBD44990BA40106882C6AB8388B8702 /* UtilForDebug.h */,
-				61DA29ED3F1F204741C691BE7160A91B /* UtilForDebug.m */,
 			);
-			path = Debug;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		1567492873D36D32EA4C398ECA65410F /* Classes */ = {
+		3EF64A6AED9DEC047F240BD944DDB7A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6168AD1E12662E2FB2B5C280484AB26B /* CampaignManager.h */,
-				ADBC116C82617E7889A0BE229EAEC2A9 /* CampaignManager.m */,
-				3304C21A5B2CC181F1D7DC581794EDC2 /* Campaign */,
-				0631F799C7F2580EC57785D52D973FDB /* Debug */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		1B802FB5AB27C08684EB29EBA49F5F6D /* CampaignAdvisor */ = {
-			isa = PBXGroup;
-			children = (
-				1567492873D36D32EA4C398ECA65410F /* Classes */,
-			);
-			path = CampaignAdvisor;
-			sourceTree = "<group>";
-		};
-		26A8EB8696D137E52BE4F8AC0B0D4E86 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9BC970966CFC0C45A95944362021081A /* AFNetworking.framework */,
-				FB05D954144A7005A5B7EB81B1D1777F /* CampaignAdvisor.framework */,
-				63FFB93338A1452495344FE03676D5DE /* Pods_CampaignAdvisor_Example.framework */,
-				078487356FDDB85A0AC35647D303E08B /* Pods_CampaignAdvisor_Tests.framework */,
+				E9A7FDD2EC5362EB438BB202692A1F1C /* AFNetworking.framework */,
+				8FB9CCDE76D7EC14BD476868AD415CD8 /* CampaignAdvisor.bundle */,
+				5788F0108E4FAE152EEC167386D75400 /* CampaignAdvisor.framework */,
+				B43927E573342410DBA547B22AC9A49F /* Pods_CampaignAdvisor_Example.framework */,
+				E28AA512497D404B793FD34A48E3F41F /* Pods_CampaignAdvisor_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		31F13C9FC230839E19F82BBB12232288 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E01544E26FFD5D27C69578998A43521B /* CampaignAdvisor.modulemap */,
-				E4AC9D59178A4FAAC08F904A8146707A /* CampaignAdvisor.xcconfig */,
-				3AACCB508D56B0463DCE23204EF23AD3 /* CampaignAdvisor-dummy.m */,
-				2594E3E0128A6D2779446E0A6985B90B /* CampaignAdvisor-prefix.pch */,
-				CB2D1BFCEF0B92640595C3C427A5D9D7 /* CampaignAdvisor-umbrella.h */,
-				36930193CC8E325C602D3866B52DE8D4 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CampaignAdvisor";
-			sourceTree = "<group>";
-		};
-		3304C21A5B2CC181F1D7DC581794EDC2 /* Campaign */ = {
-			isa = PBXGroup;
-			children = (
-				10775E94CB1CC9823005ECF62F8F73EF /* 1.html */,
-				61B7D432A6D093C9CC4E9E77E45599AA /* 2.html */,
-				B84AF8419808568CD4FE9C4A225A7FD4 /* CampaignAPIManager */,
-				6324FCEF2C110CBE8D7D8DCE9E53A0DC /* CampaignViewController */,
-			);
-			path = Campaign;
-			sourceTree = "<group>";
-		};
-		6324FCEF2C110CBE8D7D8DCE9E53A0DC /* CampaignViewController */ = {
-			isa = PBXGroup;
-			children = (
-				D167E819DF834B303745EC5E3EA9E5AC /* CampaignViewController.h */,
-				F3CD1D44CB001AAD98129AE525919A90 /* CampaignViewController.m */,
-			);
-			path = CampaignViewController;
 			sourceTree = "<group>";
 		};
 		641BDD347DE7B8BB81D6CA5727C6EC5A /* Pods */ = {
@@ -315,6 +282,16 @@
 				EECF143AE392C1D26B1C57DFCCC39E7E /* AFSecurityPolicy.m */,
 			);
 			name = Security;
+			sourceTree = "<group>";
+		};
+		6A793E38016EA429B086788F7C571BAE /* CampaignAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				4851530093AAC94058126EFA6A0ACD25 /* CampaignAPIManager.h */,
+				4C6DB27D89B35C2A87919AD6A1BED66A /* CampaignAPIManager.m */,
+			);
+			name = CampaignAPIManager;
+			path = CampaignAPIManager;
 			sourceTree = "<group>";
 		};
 		6C5EF6B89BEBD4B73AEDAF254F45564F /* Serialization */ = {
@@ -350,10 +327,10 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8504D4E3D388FC5D358E67B55D67ABBD /* Development Pods */,
+				94E10B5D340CC6291AE52B94B8F579D9 /* Development Pods */,
 				F6DEF2D45BB72943C9E424D8F20DB9CD /* Frameworks */,
 				641BDD347DE7B8BB81D6CA5727C6EC5A /* Pods */,
-				26A8EB8696D137E52BE4F8AC0B0D4E86 /* Products */,
+				3EF64A6AED9DEC047F240BD944DDB7A6 /* Products */,
 				ED3AF8378129ED344CE0900FA093CBFB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -367,12 +344,28 @@
 			name = Reachability;
 			sourceTree = "<group>";
 		};
-		8504D4E3D388FC5D358E67B55D67ABBD /* Development Pods */ = {
+		85129A705A052D50C025BDF52B2EAA4F /* Debug */ = {
 			isa = PBXGroup;
 			children = (
-				AC430647DC67B27122CEDA89373FC841 /* CampaignAdvisor */,
+				AC3E2B0849C5DA95AC0AFF0D7B7D5DA1 /* UtilForDebug.h */,
+				2B653F50DC570B70FC0B9CB5E0F26682 /* UtilForDebug.m */,
 			);
-			name = "Development Pods";
+			name = Debug;
+			path = CampaignAdvisor/Classes/Debug;
+			sourceTree = "<group>";
+		};
+		88EF9F4A51667328F9780DB8B0079984 /* CampaignAdvisor */ = {
+			isa = PBXGroup;
+			children = (
+				953DBE62CD2C065E04A2EA0991CD7CA5 /* CampaignManager.h */,
+				F665711E2075C4950AFDCCB4EF510EAB /* CampaignManager.m */,
+				F01448935917C5C5D6EEB32AAF81B893 /* Campaign */,
+				85129A705A052D50C025BDF52B2EAA4F /* Debug */,
+				1A3077B8A5E09CDA4A2FA3A55F038C13 /* Resources */,
+				A3578AB2835A1C7F6D8E321FD28729E7 /* Support Files */,
+			);
+			name = CampaignAdvisor;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		8DD046F7FCE6E3DDF168C9AD96C59FED /* AFNetworking */ = {
@@ -386,17 +379,41 @@
 				C45D249FB5DB8E034FDE4F14853D1D8B /* Support Files */,
 				C015C5E223184310A507F6F6D795AB1F /* UIKit */,
 			);
+			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		AC430647DC67B27122CEDA89373FC841 /* CampaignAdvisor */ = {
+		94E10B5D340CC6291AE52B94B8F579D9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1B802FB5AB27C08684EB29EBA49F5F6D /* CampaignAdvisor */,
-				31F13C9FC230839E19F82BBB12232288 /* Support Files */,
+				88EF9F4A51667328F9780DB8B0079984 /* CampaignAdvisor */,
 			);
-			name = CampaignAdvisor;
-			path = ../..;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A3578AB2835A1C7F6D8E321FD28729E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C09F5C9EEDCC5E89213B15C457D156B1 /* CampaignAdvisor.modulemap */,
+				CAEDB0D8988F62089D123D9FB90E0C70 /* CampaignAdvisor.xcconfig */,
+				F42C3A319DD3F5594E987B7F33354887 /* CampaignAdvisor-dummy.m */,
+				CC8E1C7C50CAC0BB0F088E74338F93F0 /* CampaignAdvisor-prefix.pch */,
+				CC892AF7232B21C584E6DE5DAC01845B /* CampaignAdvisor-umbrella.h */,
+				3AB8F802A226B38CAC2195B45672B15D /* Info.plist */,
+				ABBFC7016605F605E357296BB7B2D7AF /* ResourceBundle-CampaignAdvisor-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CampaignAdvisor";
+			sourceTree = "<group>";
+		};
+		B1E3EBCA5D819A19179DB618CD497ABE /* CampaignViewController */ = {
+			isa = PBXGroup;
+			children = (
+				47A56F71494E67FD5375672C79BD5469 /* CampaignViewController.h */,
+				361C31279871C784166CD62A7F3229F3 /* CampaignViewController.m */,
+			);
+			name = CampaignViewController;
+			path = CampaignViewController;
 			sourceTree = "<group>";
 		};
 		B3E9804321F92B21FC2C143505B8CA6C /* Pods-CampaignAdvisor_Example */ = {
@@ -415,15 +432,6 @@
 			);
 			name = "Pods-CampaignAdvisor_Example";
 			path = "Target Support Files/Pods-CampaignAdvisor_Example";
-			sourceTree = "<group>";
-		};
-		B84AF8419808568CD4FE9C4A225A7FD4 /* CampaignAPIManager */ = {
-			isa = PBXGroup;
-			children = (
-				1176E701E0C84440BEAA18D51200886D /* CampaignAPIManager.h */,
-				00A282EC56CAAC12F7DFFA639AD517E1 /* CampaignAPIManager.m */,
-			);
-			path = CampaignAPIManager;
 			sourceTree = "<group>";
 		};
 		C015C5E223184310A507F6F6D795AB1F /* UIKit */ = {
@@ -501,6 +509,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F01448935917C5C5D6EEB32AAF81B893 /* Campaign */ = {
+			isa = PBXGroup;
+			children = (
+				EF44065C2DAE3F31A3C12AB43F94EE6A /* 1.html */,
+				F849455F3C4EA2155CBF41652CBA54FD /* 2.html */,
+				6A793E38016EA429B086788F7C571BAE /* CampaignAPIManager */,
+				B1E3EBCA5D819A19179DB618CD497ABE /* CampaignViewController */,
+			);
+			name = Campaign;
+			path = CampaignAdvisor/Classes/Campaign;
+			sourceTree = "<group>";
+		};
 		F6DEF2D45BB72943C9E424D8F20DB9CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -513,23 +533,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		50C3FFB1B5CC6AF0A0CF3F6B2DA15DDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97B11A32B4FDE93E1D5AB2F9D7FC451 /* CampaignAdvisor-umbrella.h in Headers */,
+				AAB1C1C0959AAD23BFB61171CF916F56 /* CampaignAPIManager.h in Headers */,
+				6DF68B02C96362F0575E1057D0EE70A1 /* CampaignManager.h in Headers */,
+				07AE594762A6B28338C18B40B930ECA3 /* CampaignViewController.h in Headers */,
+				2DAF9049C360B38D36F4C738189833C2 /* UtilForDebug.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		532E86ED5B1FCDB4B049A2B12AD4CB17 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				49D6747A8497857DC913E8609AD74D87 /* Pods-CampaignAdvisor_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F5C7BBAB084929854EB4811E7B94E8C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B14F100F8966C6C3C1E4FAA2CDE6EA3 /* CampaignAdvisor-umbrella.h in Headers */,
-				3323F63C422C3F7ABC0603B4526CF5D6 /* CampaignAPIManager.h in Headers */,
-				7D2AD2DC6AF3448A53673D227F248BFD /* CampaignManager.h in Headers */,
-				2AF99D2461B25129A41A715C8F44EDD7 /* CampaignViewController.h in Headers */,
-				2E5F39AC483B786D2CCA348DDEACF136 /* UtilForDebug.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +606,44 @@
 			);
 			name = "Pods-CampaignAdvisor_Example";
 			productName = "Pods-CampaignAdvisor_Example";
-			productReference = 63FFB93338A1452495344FE03676D5DE /* Pods_CampaignAdvisor_Example.framework */;
+			productReference = B43927E573342410DBA547B22AC9A49F /* Pods_CampaignAdvisor_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2C6001C778F1640A73D4F578B3984856 /* CampaignAdvisor-CampaignAdvisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80459A5E1DEBB9464EA408440D79B00F /* Build configuration list for PBXNativeTarget "CampaignAdvisor-CampaignAdvisor" */;
+			buildPhases = (
+				CF2CE750F919B343274390046A37998D /* Sources */,
+				46676805574FE1AC5FC9EC3772B2C769 /* Frameworks */,
+				43AAF915D49BF03C266ACD9578A669E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CampaignAdvisor-CampaignAdvisor";
+			productName = "CampaignAdvisor-CampaignAdvisor";
+			productReference = 8FB9CCDE76D7EC14BD476868AD415CD8 /* CampaignAdvisor.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8242B629A2251AAF9183343CD5A4C303 /* CampaignAdvisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67864F0BCD91BB79E5AF92BE17B89BDE /* Build configuration list for PBXNativeTarget "CampaignAdvisor" */;
+			buildPhases = (
+				AC3E23429D9C7F7E8DADECA2D5011D99 /* Sources */,
+				E575F9DB50551335986EDD5CF977BF59 /* Frameworks */,
+				8C57B81CD341226B028C0546D790B0E1 /* Resources */,
+				50C3FFB1B5CC6AF0A0CF3F6B2DA15DDD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9BB3F6CB1BBC8CDB669BAFFA4C65019 /* PBXTargetDependency */,
+				F41C27F66E4E7C030F729477062A2644 /* PBXTargetDependency */,
+			);
+			name = CampaignAdvisor;
+			productName = CampaignAdvisor;
+			productReference = 5788F0108E4FAE152EEC167386D75400 /* CampaignAdvisor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */ = {
@@ -603,25 +660,7 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = 9BC970966CFC0C45A95944362021081A /* AFNetworking.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D3118CBB1E52B882BFE70615AC36BD71 /* CampaignAdvisor */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D7CBDE2D1E92336853001286DB76BCE4 /* Build configuration list for PBXNativeTarget "CampaignAdvisor" */;
-			buildPhases = (
-				26693F746F31B15013DE7E3244BD3DC6 /* Sources */,
-				D292486420C908D205A5FBE2DCE7238B /* Frameworks */,
-				9F5C7BBAB084929854EB4811E7B94E8C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DC94BB1B5EEC01C4C7AB17BC2EB8B459 /* PBXTargetDependency */,
-			);
-			name = CampaignAdvisor;
-			productName = CampaignAdvisor;
-			productReference = FB05D954144A7005A5B7EB81B1D1777F /* CampaignAdvisor.framework */;
+			productReference = E9A7FDD2EC5362EB438BB202692A1F1C /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F0FA29372346BAD3DC0637B262456CFE /* Pods-CampaignAdvisor_Tests */ = {
@@ -638,7 +677,7 @@
 			);
 			name = "Pods-CampaignAdvisor_Tests";
 			productName = "Pods-CampaignAdvisor_Tests";
-			productReference = 078487356FDDB85A0AC35647D303E08B /* Pods_CampaignAdvisor_Tests.framework */;
+			productReference = E28AA512497D404B793FD34A48E3F41F /* Pods_CampaignAdvisor_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -658,31 +697,40 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 26A8EB8696D137E52BE4F8AC0B0D4E86 /* Products */;
+			productRefGroup = 3EF64A6AED9DEC047F240BD944DDB7A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */,
-				D3118CBB1E52B882BFE70615AC36BD71 /* CampaignAdvisor */,
+				8242B629A2251AAF9183343CD5A4C303 /* CampaignAdvisor */,
+				2C6001C778F1640A73D4F578B3984856 /* CampaignAdvisor-CampaignAdvisor */,
 				1A8316B293BA00918E0CFDC7FAD19A57 /* Pods-CampaignAdvisor_Example */,
 				F0FA29372346BAD3DC0637B262456CFE /* Pods-CampaignAdvisor_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		26693F746F31B15013DE7E3244BD3DC6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		43AAF915D49BF03C266ACD9578A669E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DC5A110680D053756FBADCF0F96E91A /* CampaignAdvisor-dummy.m in Sources */,
-				6B4A2FF493233B7BD8B5D6F7CC42C7E4 /* CampaignAPIManager.m in Sources */,
-				51697FDA472A0F0147AA944A9FB675A3 /* CampaignManager.m in Sources */,
-				5264BBD025647E14C79F7DE9FDBA602F /* CampaignViewController.m in Sources */,
-				6B2CAC77BFBD6DF1283CF73F4E1A98E3 /* UtilForDebug.m in Sources */,
+				2BD98890658A5A449493A9FDA44C5258 /* 1.html in Resources */,
+				FBC7A47D7AACD376EC0D19D8C5F16B06 /* 2.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C57B81CD341226B028C0546D790B0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE43401E09CA9E3E551825B70962B359 /* CampaignAdvisor.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		4E54DE19A7A1EA5577FB291A6FE9E0B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -722,6 +770,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC3E23429D9C7F7E8DADECA2D5011D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF888A826EB9FECECD9336B6102BABE6 /* 1.html in Sources */,
+				CED4BAC482D48816A311812BC39D6ED2 /* 2.html in Sources */,
+				3C2AE1CAFABA8B6AB405F001A126BBF1 /* CampaignAdvisor-dummy.m in Sources */,
+				AC7FCD47BFB3ACCC8015431B2A6A4E7F /* CampaignAPIManager.m in Sources */,
+				F837017AC4F2D4A89D210A705C28AB0C /* CampaignManager.m in Sources */,
+				897797E11D79732E52BF3247CD8815F3 /* CampaignViewController.m in Sources */,
+				94F9B0D54B51C78591BEA703172A15E8 /* UtilForDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2CE750F919B343274390046A37998D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -734,14 +803,20 @@
 		72163BD509ACB38C75D3301972D2A299 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CampaignAdvisor;
-			target = D3118CBB1E52B882BFE70615AC36BD71 /* CampaignAdvisor */;
+			target = 8242B629A2251AAF9183343CD5A4C303 /* CampaignAdvisor */;
 			targetProxy = 19212344F351F3A0C2866F75E0217722 /* PBXContainerItemProxy */;
 		};
-		DC94BB1B5EEC01C4C7AB17BC2EB8B459 /* PBXTargetDependency */ = {
+		B9BB3F6CB1BBC8CDB669BAFFA4C65019 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */;
-			targetProxy = F0A74AA0CC091136DE7AF3C016C8B29F /* PBXContainerItemProxy */;
+			targetProxy = 957B9A334C915E35AACCBC23FC7E68C6 /* PBXContainerItemProxy */;
+		};
+		F41C27F66E4E7C030F729477062A2644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CampaignAdvisor-CampaignAdvisor";
+			target = 2C6001C778F1640A73D4F578B3984856 /* CampaignAdvisor-CampaignAdvisor */;
+			targetProxy = DD1EA000EFC0E470F65A625BF83DF2FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -818,153 +893,26 @@
 			};
 			name = Debug;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		108CB49C53607E210FA3A0083C8355EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEDB0D8988F62089D123D9FB90E0C70 /* CampaignAdvisor.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		455329FB32B71146B107E910A2B6634C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7617E4141049E867B695D99457B2D51 /* AFNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CampaignAdvisor";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = "Target Support Files/CampaignAdvisor/ResourceBundle-CampaignAdvisor-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AFNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4DBBE47FB1F6525985AB5C486449FCF3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7617E4141049E867B695D99457B2D51 /* AFNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AFNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		521215C4366946C05860DE778719B08C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4AC9D59178A4FAAC08F904A8146707A /* CampaignAdvisor.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CampaignAdvisor/CampaignAdvisor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CampaignAdvisor/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CampaignAdvisor/CampaignAdvisor.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = CampaignAdvisor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		5B86B7C1206B85A389E8F3CB041116CE /* Debug */ = {
+		1BC62A29ACFD5617A7DD7D55F13539D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4AC9D59178A4FAAC08F904A8146707A /* CampaignAdvisor.xcconfig */;
+			baseConfigurationReference = CAEDB0D8988F62089D123D9FB90E0C70 /* CampaignAdvisor.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -988,6 +936,7 @@
 				PRODUCT_NAME = CampaignAdvisor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1037,6 +986,55 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
 		};
 		B0A63EF6F45CA89357B814910D6DD7D1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1110,13 +1108,129 @@
 			};
 			name = Debug;
 		};
+		C7F5E9F26C62C1329854E595A488A56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7617E4141049E867B695D99457B2D51 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D15010D951FEE602B43772E9A2938F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7617E4141049E867B695D99457B2D51 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5B84F97750142D65301382672D4803D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEDB0D8988F62089D123D9FB90E0C70 /* CampaignAdvisor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CampaignAdvisor/CampaignAdvisor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CampaignAdvisor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CampaignAdvisor/CampaignAdvisor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CampaignAdvisor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EECD06B0CB86D0A8BC2903666958B642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEDB0D8988F62089D123D9FB90E0C70 /* CampaignAdvisor.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CampaignAdvisor";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CampaignAdvisor/ResourceBundle-CampaignAdvisor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CampaignAdvisor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
 				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1125,8 +1239,8 @@
 		31E01BC98C827BD8A78F94173CDCC418 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DBBE47FB1F6525985AB5C486449FCF3 /* Debug */,
-				455329FB32B71146B107E910A2B6634C /* Release */,
+				C7F5E9F26C62C1329854E595A488A56A /* Debug */,
+				D15010D951FEE602B43772E9A2938F28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1140,11 +1254,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7CBDE2D1E92336853001286DB76BCE4 /* Build configuration list for PBXNativeTarget "CampaignAdvisor" */ = {
+		67864F0BCD91BB79E5AF92BE17B89BDE /* Build configuration list for PBXNativeTarget "CampaignAdvisor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B86B7C1206B85A389E8F3CB041116CE /* Debug */,
-				521215C4366946C05860DE778719B08C /* Release */,
+				1BC62A29ACFD5617A7DD7D55F13539D7 /* Debug */,
+				D5B84F97750142D65301382672D4803D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80459A5E1DEBB9464EA408440D79B00F /* Build configuration list for PBXNativeTarget "CampaignAdvisor-CampaignAdvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108CB49C53607E210FA3A0083C8355EF /* Debug */,
+				EECD06B0CB86D0A8BC2903666958B642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

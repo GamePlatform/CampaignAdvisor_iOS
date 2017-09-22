@@ -67,14 +67,6 @@
     }];
 }
 
-//- (UIViewController* )getPresentedVC:(UIViewController *)presenting {
-//    UIViewController *vc = presenting;
-//    while (vc.presentedViewController) {
-//        vc = vc.presentedViewController;
-//    }
-//    return vc;
-//}
-
 - (void)presentCampaigns:(UIViewController *)viewController {
     if (campaigns.count) {
         CampaignViewController *vc = [CampaignViewController new];
