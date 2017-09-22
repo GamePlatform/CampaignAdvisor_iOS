@@ -33,10 +33,10 @@ TODO: Add long description of the pod here.
   s.source_files = 'CampaignAdvisor/Classes/**/*'
   
    s.resource_bundles = {
-     'CampaignAdvisor' => ['CampaignAdvisor/Classes/**/*.html']
+     'CampaignAdvisor' => ['CampaignAdvisor/Classes/Campaign/*.html']
    }
 
-# s.public_header_files = 'Pod/Classes/CampaignManager.h'
+    s.public_header_files = 'CampaignAdvisor/Classes/CampaignManager.h'
     s.frameworks = 'UIKit', 'WebKit'
     s.dependency 'AFNetworking'
 end

@@ -41,7 +41,10 @@
     [configuration setUserContentController:userContentController];
     
     webView = [[WKWebView alloc] initWithFrame:self.view.frame configuration:configuration];
-
+    
+    NSBundle* bundle = [NSBundle bundleForClass:self.class];
+    NSLog(@"%@", [NSBundle bundleForClass:self.class]);
+    NSLog(@"%@", [NSBundle mainBundle]);
     NSURL *url = [[NSBundle bundleForClass:[self class]] URLForResource:[NSString stringWithFormat:@"%@", _info[@"template"]] withExtension:@"html"];
     
     NSURLComponents *components = [[NSURLComponents alloc] initWithURL:url resolvingAgainstBaseURL:NO];
