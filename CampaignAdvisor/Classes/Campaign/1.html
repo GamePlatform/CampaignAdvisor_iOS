@@ -22,50 +22,20 @@
         }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Campaign.js"></script>
 </head>
 
 <body>
     <div id=wrapper>
         <div id=content>
-            <img id=img_view onclick="exec('redirect', redirect);">
+            <img id=img_view onclick="exec('redirect');">
         </div>
         <div id=checker>
-            <input type="checkbox" style="height:200px;width:200px" id="no_more_to_see"> 오늘 하루 보지 않기
+            <input type="checkbox" style="height:200px;width:200px" id="no_more_to_see">
+            <label id="title" for="no_more_to_see">오늘 하루 보지 않기</label>
             <button type="button" style="height:200px;width:200px" onclick="exec('close', document.getElementById('no_more_to_see').checked);">확인</button>
         </div>
     </div>
 </body>
-
-<script>
-    var os = '';
-    var redirect = '';
-
-    $(document).ready(function () {
-        var queries = {};
-        $.each(document.location.search.substr(1).split('&'), function (c, q) {
-            var i = q.split('=');
-            queries[i[0].toString()] = i[1].toString();
-        });
-
-        document.getElementById("img_view").src = decodeURIComponent(queries["img"]);
-        os = queries["os"];
-        redirect = queries["redirect"];
-    });
-
-    function testEcho(str) {
-        console.log(str);
-    }
-
-    //parameter가 없는경우 공백('')으로라도 보내야함.
-    function exec(functionName, parameter) {
-        if (os == 'iOS')
-            window.webkit.messageHandlers.campaign.postMessage({
-                'func': functionName + ":",
-                'param': parameter
-            });
-        else if (os == 'AOS')
-            window.android[functionName](parameter);
-    }
-</script>
 
 </html>

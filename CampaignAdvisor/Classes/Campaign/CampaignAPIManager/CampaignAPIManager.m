@@ -120,9 +120,9 @@ constructingBodyWithBlock:^(id<AFMultipartFormData> formData){if(formDataCallbac
 
 #pragma mark - All Kinds of API
 
-- (void)getCampaigns:(NSString*)inform locationID:(NSString *)locationID success:(NetworkSucBlock)success {
+- (void)getCampaigns:(NSString*)inform locationID:(NSString *)locationID exceptCampaigns:(NSArray* )ec success:(NetworkSucBlock)success {
     [self get:[NSString stringWithFormat:@"api/apps/%@/locations/%@/campaigns", _appID, locationID]
-   parameters:nil inform:inform success:success failFromServer:nil completion:nil];
+   parameters:@{@"ec":ec} inform:inform success:success failFromServer:nil completion:nil];
 }
 
 - (void)postAnalytics:(NSString*)inform analytics:(NSArray *)analytics success:(NetworkSucBlock)success {

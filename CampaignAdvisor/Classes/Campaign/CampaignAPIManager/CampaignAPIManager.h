@@ -22,7 +22,7 @@ typedef void (^FormDataBlock)(id<AFMultipartFormData> formData);
 
 - (void)postDeviceInfo:(NSString*)inform;
 
-- (void)getCampaigns:(NSString*)inform locationID:(NSString *)locationID success:(NetworkSucBlock)success;
+- (void)getCampaigns:(NSString*)inform locationID:(NSString *)locationID exceptCampaigns:(NSArray* )ec success:(NetworkSucBlock)success;
 
 - (void)postAnalytics:(NSString*)inform analytics:(NSArray *)analytics success:(NetworkSucBlock)success;
 

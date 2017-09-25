@@ -34,6 +34,8 @@
 		51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FDE8718B3C2608D30D734C8A15D3D3 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56CF50D6D6DB8E8AEDF37BEBBC1257AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCB737832E5BC152494BB40361EE612 /* Foundation.framework */; };
 		5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 103EE194B42BE62229AA5C5351E9BFE9 /* AFURLResponseSerialization.m */; };
+		644F8DC21F78E2A6000C5FF5 /* Campaign.js in Resources */ = {isa = PBXBuildFile; fileRef = 644F8DC11F78E2A6000C5FF5 /* Campaign.js */; };
+		644F8DC31F78E2A6000C5FF5 /* Campaign.js in Resources */ = {isa = PBXBuildFile; fileRef = 644F8DC11F78E2A6000C5FF5 /* Campaign.js */; };
 		649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DAA8D29D605736A0994260EEE74150 /* AFNetworkActivityIndicatorManager.m */; };
 		6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 31421BED59C8FE2DFEFD4457219B946A /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DF68B02C96362F0575E1057D0EE70A1 /* CampaignManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 953DBE62CD2C065E04A2EA0991CD7CA5 /* CampaignManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -135,42 +137,43 @@
 		4CC106FF13C32BEF412C828A8E5AB4FB /* Pods-CampaignAdvisor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CampaignAdvisor_Example-umbrella.h"; sourceTree = "<group>"; };
 		4D69ECBE2C99815724F7DBABECF15FAF /* Pods-CampaignAdvisor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CampaignAdvisor_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4DDDAFE16F1C06EFAE434D84600766A8 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		4F6FBBCD93BCCB5EC91870FFC0A6E98E /* Pods-CampaignAdvisor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CampaignAdvisor_Tests.modulemap"; sourceTree = "<group>"; };
-		5788F0108E4FAE152EEC167386D75400 /* CampaignAdvisor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CampaignAdvisor.framework; path = CampaignAdvisor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F6FBBCD93BCCB5EC91870FFC0A6E98E /* Pods-CampaignAdvisor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CampaignAdvisor_Tests.modulemap"; sourceTree = "<group>"; };
+		5788F0108E4FAE152EEC167386D75400 /* CampaignAdvisor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CampaignAdvisor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FDE8718B3C2608D30D734C8A15D3D3 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		634CF4D5707C05C6439D1C509C2FB022 /* Pods-CampaignAdvisor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CampaignAdvisor_Example-resources.sh"; sourceTree = "<group>"; };
+		644F8DC11F78E2A6000C5FF5 /* Campaign.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Campaign.js; sourceTree = "<group>"; };
 		685702CDD5AAD0E5BCCAB830063930A4 /* Pods-CampaignAdvisor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CampaignAdvisor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		69DAA8D29D605736A0994260EEE74150 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		70332663680EC8454EFCA3F34B386256 /* Pods-CampaignAdvisor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CampaignAdvisor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73950156966D6FB93DC14CBF7F3326A6 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		766A8DB58B1DEC0150E36AD843786FF3 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		796C9E8DAE43D1AB43FA8E69CDEE7ABD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FEBEAD524FBA9CB3333D35635D65A03 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		7FEBEAD524FBA9CB3333D35635D65A03 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		85053C33AB5B93D2852851105AAA32B1 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		86F42B01C0184F7993752BA21574CFB4 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		87463A8F055EEE85DD10593D0C8721B2 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		8FB9CCDE76D7EC14BD476868AD415CD8 /* CampaignAdvisor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CampaignAdvisor.bundle; path = CampaignAdvisor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB9CCDE76D7EC14BD476868AD415CD8 /* CampaignAdvisor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampaignAdvisor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		907EBD05C24D3EC8D81F3A5FEE84121C /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		9274E93AF598BD9449A9EE66C512EE95 /* Pods-CampaignAdvisor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CampaignAdvisor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		953DBE62CD2C065E04A2EA0991CD7CA5 /* CampaignManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CampaignManager.h; path = CampaignAdvisor/Classes/CampaignManager.h; sourceTree = "<group>"; };
 		9876AEA0C310EB16CD0F24B51C1F0DF9 /* Pods-CampaignAdvisor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CampaignAdvisor_Tests-dummy.m"; sourceTree = "<group>"; };
 		98A189FDEF0AD08BC5DC357020B8DB5A /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		996D38C17E48CD16703CD9A31F9F6EC7 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		9B5EF98E2B153C6459F4BC74A2940581 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		A39107EEA293C692022DBFA34617CFB0 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		AAAB0590FAF33DC6C2DF91B4E02C1BBC /* Pods-CampaignAdvisor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CampaignAdvisor_Example.modulemap"; sourceTree = "<group>"; };
+		AAAB0590FAF33DC6C2DF91B4E02C1BBC /* Pods-CampaignAdvisor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CampaignAdvisor_Example.modulemap"; sourceTree = "<group>"; };
 		AB4088CDD2F5D16F78CD6D995025592E /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		ABBFC7016605F605E357296BB7B2D7AF /* ResourceBundle-CampaignAdvisor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CampaignAdvisor-Info.plist"; sourceTree = "<group>"; };
 		AC3E2B0849C5DA95AC0AFF0D7B7D5DA1 /* UtilForDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilForDebug.h; sourceTree = "<group>"; };
 		B00ABE2539A23D5CD12E8B3547F05E07 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		B342C29C92E4DA20525F1ED2B2E8B3F9 /* Pods-CampaignAdvisor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CampaignAdvisor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B43927E573342410DBA547B22AC9A49F /* Pods_CampaignAdvisor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CampaignAdvisor_Example.framework; path = "Pods-CampaignAdvisor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43927E573342410DBA547B22AC9A49F /* Pods_CampaignAdvisor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampaignAdvisor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FB2BC83B1CAF09DA68C6C64F67D8C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B775F2CB1A9FB265DAF8C6F05776A69E /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		B846E46970D40E9AC8960B9C98B1D227 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAEEB3CDE859F3F412940D15AA031037 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		C09F5C9EEDCC5E89213B15C457D156B1 /* CampaignAdvisor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CampaignAdvisor.modulemap; sourceTree = "<group>"; };
+		C09F5C9EEDCC5E89213B15C457D156B1 /* CampaignAdvisor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CampaignAdvisor.modulemap; sourceTree = "<group>"; };
 		CAEDB0D8988F62089D123D9FB90E0C70 /* CampaignAdvisor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CampaignAdvisor.xcconfig; sourceTree = "<group>"; };
 		CC39EF3AD1F82C62CF9B8F3BCA30273A /* Pods-CampaignAdvisor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CampaignAdvisor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CC892AF7232B21C584E6DE5DAC01845B /* CampaignAdvisor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CampaignAdvisor-umbrella.h"; sourceTree = "<group>"; };
@@ -182,18 +185,18 @@
 		E06C4D570ABCF18D8095B9111D3D3F98 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		E1F4BB4D32547029FF6D0B8746965824 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E287540F6AAFBD6834BFA37866AE26DA /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		E28AA512497D404B793FD34A48E3F41F /* Pods_CampaignAdvisor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CampaignAdvisor_Tests.framework; path = "Pods-CampaignAdvisor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28AA512497D404B793FD34A48E3F41F /* Pods_CampaignAdvisor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampaignAdvisor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E363399C8F7BCAD4FC7BD1CDBF97CD10 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		E6E0C171634A123A0E7FC39F44FA05D2 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		E9A7FDD2EC5362EB438BB202692A1F1C /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A7FDD2EC5362EB438BB202692A1F1C /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9F5DA3051DAC003422E54B3B4A6E9D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		EECF143AE392C1D26B1C57DFCCC39E7E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		EF44065C2DAE3F31A3C12AB43F94EE6A /* 1.html */ = {isa = PBXFileReference; includeInIndex = 1; path = 1.html; sourceTree = "<group>"; };
+		EF44065C2DAE3F31A3C12AB43F94EE6A /* 1.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; path = 1.html; sourceTree = "<group>"; };
 		F05638D4877C1C9F1AAC3E348D5C7D70 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		F42C3A319DD3F5594E987B7F33354887 /* CampaignAdvisor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CampaignAdvisor-dummy.m"; sourceTree = "<group>"; };
 		F665711E2075C4950AFDCCB4EF510EAB /* CampaignManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CampaignManager.m; path = CampaignAdvisor/Classes/CampaignManager.m; sourceTree = "<group>"; };
 		F7617E4141049E867B695D99457B2D51 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		F849455F3C4EA2155CBF41652CBA54FD /* 2.html */ = {isa = PBXFileReference; includeInIndex = 1; path = 2.html; sourceTree = "<group>"; };
+		F849455F3C4EA2155CBF41652CBA54FD /* 2.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; path = 2.html; sourceTree = "<group>"; };
 		FB5440BA28C5F5A574AB1C50D2AE884C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		FDD03D0BE06A3B18AD76D92D8234FBBB /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -290,7 +293,6 @@
 				4851530093AAC94058126EFA6A0ACD25 /* CampaignAPIManager.h */,
 				4C6DB27D89B35C2A87919AD6A1BED66A /* CampaignAPIManager.m */,
 			);
-			name = CampaignAPIManager;
 			path = CampaignAPIManager;
 			sourceTree = "<group>";
 		};
@@ -379,7 +381,6 @@
 				C45D249FB5DB8E034FDE4F14853D1D8B /* Support Files */,
 				C015C5E223184310A507F6F6D795AB1F /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -412,7 +413,6 @@
 				47A56F71494E67FD5375672C79BD5469 /* CampaignViewController.h */,
 				361C31279871C784166CD62A7F3229F3 /* CampaignViewController.m */,
 			);
-			name = CampaignViewController;
 			path = CampaignViewController;
 			sourceTree = "<group>";
 		};
@@ -514,6 +514,7 @@
 			children = (
 				EF44065C2DAE3F31A3C12AB43F94EE6A /* 1.html */,
 				F849455F3C4EA2155CBF41652CBA54FD /* 2.html */,
+				644F8DC11F78E2A6000C5FF5 /* Campaign.js */,
 				6A793E38016EA429B086788F7C571BAE /* CampaignAPIManager */,
 				B1E3EBCA5D819A19179DB618CD497ABE /* CampaignViewController */,
 			);
@@ -715,6 +716,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644F8DC31F78E2A6000C5FF5 /* Campaign.js in Resources */,
 				2BD98890658A5A449493A9FDA44C5258 /* 1.html in Resources */,
 				FBC7A47D7AACD376EC0D19D8C5F16B06 /* 2.html in Resources */,
 			);
@@ -724,6 +726,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644F8DC21F78E2A6000C5FF5 /* Campaign.js in Resources */,
 				BE43401E09CA9E3E551825B70962B359 /* CampaignAdvisor.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

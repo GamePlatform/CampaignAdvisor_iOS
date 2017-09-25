@@ -50,7 +50,7 @@
                                    resolvingAgainstBaseURL:NO];
     
     [components setQueryItems:@[[NSURLQueryItem queryItemWithName:@"os" value:@"iOS"],
-                                [NSURLQueryItem queryItemWithName:@"redirect" value:_info[@"redirect_location"]],
+                                [NSURLQueryItem queryItemWithName:@"title" value:_info[@"title"]],
                                 [NSURLQueryItem queryItemWithName:@"img" value:_info[@"url"]]]];
     
     [webView loadRequest:[NSURLRequest requestWithURL:components.URL]];
@@ -134,28 +134,31 @@
 
 - (void)close:(NSNumber *)noMoreToSee {
     NSLog(@"%@", noMoreToSee);
+    if ([noMoreToSee boolValue]) {
+        [CampaignManager.sharedManager addExceptCampaign:_info[@"campaign_id"] forDays:[_info[@"ad_expire_day"] intValue]];
+    }
     [self closeWithCompletion:nil];
 }
 
-- (void)redirect:(NSString *)redirect {
+- (void)redirect {
     dispatch_async(dispatch_get_main_queue(), ^{
         UIViewController *visibleViewController = self.presentingViewController;
         if ([visibleViewController isKindOfClass:[CampaignViewController class]]) {
             [self closeWithCompletion:^{
-                [(CampaignViewController *)visibleViewController redirect:redirect];
+                [(CampaignViewController *)visibleViewController redirect];
             }];
         } else {
             [self closeWithCompletion:^{
                 [CampaignManager.sharedManager addAnalytics:_info[@"campaign_id"] type:AnalyticsTypePurchase];
                 @try {
-                    [visibleViewController performSegueWithIdentifier:redirect sender:nil];
+                    [visibleViewController performSegueWithIdentifier:_info[@"redirect_location"] sender:nil];
                 } @catch (NSException *exception) {
                     __block UIViewController* blocVisible = visibleViewController;
                     if ([blocVisible isKindOfClass:UINavigationController.class]) {
                         blocVisible = [(UINavigationController *)visibleViewController visibleViewController];
                     }
-                    if ([blocVisible respondsToSelector:NSSelectorFromString(redirect)]) {
-                        [blocVisible performSelector:NSSelectorFromString(redirect)];
+                    if ([blocVisible respondsToSelector:NSSelectorFromString(_info[@"redirect_location"])]) {
+                        [blocVisible performSelector:NSSelectorFromString(_info[@"redirect_location"])];
                     }
                     DLog(@"Segue and Function did not find it either.");
                 } @finally { }

@@ -15,7 +15,6 @@
 #define kanalyticsKey @"CampaignAnalytics"
 
 @interface CampaignManager() {
-//    NSMutableArray *analytics;
     NSMutableArray *campaigns;
 }
 
@@ -58,7 +57,7 @@
 }
 
 - (void)getCampaigns:(NSString *)locationID onVC:(UIViewController *)viewController {
-    [[CampaignAPIManager sharedManager] getCampaigns:kInformStr locationID:locationID success:^(NSURLSessionTask *task, id obj) {
+    [[CampaignAPIManager sharedManager] getCampaigns:kInformStr locationID:locationID exceptCampaigns:[self getExceptArr:NSDate.date] success:^(NSURLSessionTask *task, id obj) {
         campaigns = [obj[@"campaigns"] mutableCopy];
         campaigns = [[campaigns sortedArrayUsingComparator:^NSComparisonResult(NSDictionary *obj1, NSDictionary *obj2) {
             return [obj2[@"campaign_order"] compare:obj1[@"campaign_order"]];
@@ -79,8 +78,27 @@
     }
 }
 
-- (void)getCampaigns:(NSString *)locationID success:(NetworkSucBlock)success {
-    [[CampaignAPIManager sharedManager] getCampaigns:kInformStr locationID:locationID success:success];
+- (void)addExceptCampaign:(id)campaignID forDays:(int)days {
+    for (int i = 0; i < days; i++) {
+        NSDate *nextDate = [NSCalendar.currentCalendar dateByAddingUnit:NSCalendarUnitDay value:i toDate:NSDate.date options:0];
+        NSMutableArray* arr = [[self getExceptArr:nextDate] mutableCopy];
+        [arr addObject:campaignID];
+        [NSUserDefaults.standardUserDefaults setObject:arr forKey:[self getKey:nextDate]];
+    }
+}
+
+- (NSString *)getKey:(NSDate *)date {
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd"];
+    return [NSString stringWithFormat:@"ExceptCampaigns_%@", [dateFormatter stringFromDate:date]];
+}
+
+- (NSArray *)getExceptArr:(NSDate *)date {
+    NSString* key = [self getKey:date];
+    NSArray* arr = [NSArray new];
+    if ([NSUserDefaults.standardUserDefaults arrayForKey:key])
+        arr = [NSUserDefaults.standardUserDefaults arrayForKey:key];
+    return arr;
 }
 
 - (void)addAnalytics:(NSString *)campaignID type:(AnalyticsTypeTag)type {

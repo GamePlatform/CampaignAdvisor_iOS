@@ -27,6 +27,7 @@ typedef void (^SimpleBlock)();
 - (void)startCampaignAdvisor:(NSString *)appID withServer:(NSString *)serverHost;
 - (void)setFailNetworking:(SimpleBlock)failNetworking;
 - (void)getCampaigns:(NSString *)locationID onVC:(UIViewController *)viewController;
+- (void)addExceptCampaign:(id)campaignID forDays:(int)days;
 - (void)addAnalytics:(NSString *)campaignID type:(AnalyticsTypeTag)type;
 
 @end
