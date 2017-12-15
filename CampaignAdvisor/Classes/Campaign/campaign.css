@@ -1,0 +1,66 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+button {
+    margin: 0;
+    width: 7rem;
+    height: 100%;
+    font-size: 3rem;
+    float: left;
+}
+input {
+    margin: 0;
+    width: 5rem;
+    height: 100%;
+    float: left;
+}
+span {
+    margin: 1rem;
+    float: left;
+}
+
+#wrapper {
+    position: absolute;
+    background-color: gray;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* header and footer */
+.border {
+    height: 5%;
+    font-size: 4rem;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.center {
+    position: relative;
+    display: inline-block;
+}
+
+#header {
+    background-color: yellow;
+}
+#content {
+    clear: both;
+    background-color: red;
+    width: 100%;
+    overflow-x: hidden;
+}
+#content img {
+    vertical-align: middle;
+    height: 100%;
+}
+#footer {
+    background-color: blue;
+}

@@ -54,6 +54,7 @@
                                 [NSURLQueryItem queryItemWithName:@"img" value:_info[@"url"]]]];
     
     [webView loadRequest:[NSURLRequest requestWithURL:components.URL]];
+//    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://google.com"]]];
     [webView setUIDelegate:self];
     
     [self.view addSubview:webView];

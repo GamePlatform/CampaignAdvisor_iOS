@@ -127,8 +127,7 @@ constructingBodyWithBlock:^(id<AFMultipartFormData> formData){if(formDataCallbac
 
 - (void)postAnalytics:(NSString*)inform analytics:(NSArray *)analytics success:(NetworkSucBlock)success {
     NSMutableDictionary *param = [NSMutableDictionary new];
-    [param setObject:[[NSString alloc] initWithData:
-                      [NSJSONSerialization dataWithJSONObject:analytics options:NSJSONWritingPrettyPrinted error:nil] encoding:NSUTF8StringEncoding] forKey:@"analytics"];
+    [param setObject:[NSJSONSerialization dataWithJSONObject:analytics options:NSJSONWritingPrettyPrinted error:nil] forKey:@"analytics"];
     [param setObject:_deviceID forKey:@"deviceID"];
     
     [self post:[NSString stringWithFormat:@"api/apps/%@/analytics", _appID] parameters:param inform:inform formData:nil progress:nil success:success failFromServer:nil completion:nil];

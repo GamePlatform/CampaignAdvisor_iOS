@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="campaign.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Campaign.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="header" class="border left">
+        <button type="button" onclick="exec('close', document.getElementById('no_more_to_see').checked);">X</button>
+    </div>
+    <div id="content" style="height: 90%">
+        <img id="img_view" onclick="exec('redirect');">
+    </div>
+    <div id="footer" class="border right">
+        <input type="checkbox" id="no_more_to_see">
+        <span id="title" for="no_more_to_see">오늘 하루 보지 않기</span>
+        <button type="button" onclick="exec('close', document.getElementById('no_more_to_see').checked);">확인</button>
+    </div>
+</div>
+</body>
+
+</html>

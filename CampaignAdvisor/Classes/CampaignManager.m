@@ -106,6 +106,7 @@
     [analyticsArr addObject:@{@"campaign_id":campaignID, @"type":@(type)}];
     [[NSUserDefaults standardUserDefaults] setObject:analyticsArr forKey:kanalyticsKey];
     if (analyticsArr.count > 3) {
+        DLog(@"%@", analyticsArr);
         [[CampaignAPIManager sharedManager] postAnalytics:kInformStr analytics:analyticsArr success:^(NSURLSessionTask *task, id obj) {
             [[NSUserDefaults standardUserDefaults] setObject:@[] forKey:kanalyticsKey];
         }];

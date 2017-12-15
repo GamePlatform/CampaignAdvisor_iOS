@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - CampaignAdvisor (0.3.0):
+  - CampaignAdvisor (0.4.0):
     - AFNetworking
 
 DEPENDENCIES:
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  CampaignAdvisor: 6039a7fae694af7b4635ffb304f63e084e67583f
+  CampaignAdvisor: af5e64e014e0fe6a8a5a4a9c4b8d1b9a18dd4270
 
 PODFILE CHECKSUM: f8f16cf18ed796ec4d9e506de91d011cfcddf724
 

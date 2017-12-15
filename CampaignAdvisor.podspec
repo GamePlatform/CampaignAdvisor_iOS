@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CampaignAdvisor'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'CampaignAdvisor for Campaign.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'CampaignAdvisor/Classes/**/*'
   
    s.resource_bundles = {
-     'CampaignAdvisor' => ['CampaignAdvisor/Classes/Campaign/*.html']
+     'CampaignAdvisor' => ['CampaignAdvisor/Classes/Campaign/*.html','CampaignAdvisor/Classes/Campaign/*.css','CampaignAdvisor/Classes/Campaign/*.js']
    }
 
     s.public_header_files = 'CampaignAdvisor/Classes/CampaignManager.h'
